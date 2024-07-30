@@ -16,14 +16,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align items to the top */
+    justify-content: flex-start;
     padding: 16px;
     padding-top: 0;
-    box-sizing: border-box; /* Ensure padding is included in width/height */
+    box-sizing: border-box;
 }
 
 .image {
-    margin-top: 16px; /* Adjust margin to position image 20px from top */
+    margin-top: 16px;
 }
 
 .image img {
@@ -34,7 +34,7 @@ body {
 
 .text {
     text-align: center;
-    margin-top: 16px; /* Add spacing between the image and text */
+    margin-top: 16px;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
     font-size: 22px;
     font-weight: 700;
     line-height: 1.2;
-    margin: 10px 16px 20px; /*  top,  left & right,  bottom */
+    margin: 10px 16px 20px;
 }
 
 p {
